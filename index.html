@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <header>
+            <div class="container">
+                <div id="branding">
+                    <h1> Minjae's Portfolio</h1>
+                </div>  
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Button</a></li>
+                        <!-- add a hrefs to all -->
+                        <li><a href="about.html"> About</a></li>
+                        <li><a href="https://google.com"> Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+       </header>
+
+       <section id="show-case">
+            <div id="joe" class="container">
+                <h1>Welcome!
+                    <a href="https://github.com/minjae-jung-1" target= "_blank">
+                        <img src="./Assests/github.png">
+                    </a> 
+                </h1>
+                <p>My Projects</p>
+            </div>
+       </section>
+
+       <section id="news-letter">
+           <div class="container">
+                <h1>
+                     Top 3 Personal Favorite Movies
+                </h1>
+                <form>
+                    <input type="email" placeholder="Enter Email...">
+                    <button id="subBut" type="submit" class="button_1">submit</button>
+                </form>
+           </div>
+       </section>
+
+       <section id="boxes">
+           <div class="container">
+                <div class="box">
+                    <img src= "./Assests/spirited-away.jpg">
+                   <h3>Spirted Away</h3>
+                   <p>In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) stumble upon a seemingly abandoned amusement park. After her mother and father are turned into giant pigs, Chihiro meets the mysterious Haku (Miyu Irino), who explains that the park is a resort for supernatural beings who need a break from their time spent in the earthly realm, and that she must work there to free herself and her parents.</p>
+                </div>
+                <div class="box">
+                    <img src= "./Assests/mono-princess.jpg">
+                    <h3>Mononoke Hime</h3>
+                    <p>In the 14th century, the harmony that humans, animals and gods have enjoyed begins to crumble. The protagonist, young Ashitaka - infected by an animal attack, seeks a cure from the deer-like god Shishigami. In his travels, he sees humans ravaging the earth, bringing down the wrath of wolf god Moro and his human companion Princess Mononoke. Hiskattempts to broker peace between her and the humans brings only conflict.</p>
+                </div>
+                <div class="box">
+                    <img src= "./Assests/howls-castle.jpg">
+                    <h3>Howls Moving Castle</h3>
+                    <p>Sophie (Emily Mortimer) has an uneventful life at her late father's hat shop, but all that changes when she befriends wizard Howl (Christian Bale), who lives in a magical flying castle. However, the evil Witch of Waste (Lauren Bacall) takes issue with their budding relationship and casts a spell on young Sophie, which ages her prematurely. Now Howl must use all his magical talents to battle the jealous hag and return Sophie to her former youth and beauty.</p>
+            </div>
+           </div>
+       </section>
+
+       <section> 
+           <div class="container">
+               <form id="signUp"> 
+                    <h1> Sign Up</h1>
+                    <p>Please fill out this contact form.</p>
+                    <hr>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                    
+                    <label for="email"><b>Password</b></label>
+                    <input type="text" placeholder="Enter Password" name="Password" required>
+                    
+                    <label for="Re-type"><b>Re-type Password</b></label>
+                    <input type="text" placeholder="Enter Re-type" name="Re-type" required>
+                    
+                    <label for="phoneNumber"><b>Phone Number</b></label>
+                    <input type="text" placeholder="Enter phoneNumber" name="phoneNumber" required>
+                    
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px"> Remember Me </input>
+                    </label>
+
+                    <div class="clearfix">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+
+               </form>
+           </div>
+       </section>
+
+        <script src="" async defer></script>
+    </body>
+    <footer>
+        <p> MJ webDev 2020</p>
+    </footer>
+</html>

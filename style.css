@@ -1,0 +1,179 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+.button_1 {
+    height: 20px;
+    width: 50px;
+    background-color: lightslategray;
+    border: 0;
+    padding-left: 5px;
+    padding-right: 20px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* global class */
+
+.container{
+    width: 88%;
+    margin: auto;
+    overflow:hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* global class */
+
+
+header{
+    background-color:  #23AE00;
+    opacity: .4;
+    color: black;
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: lightpink 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    /* gets rid of the line under lines */
+    text-transform: uppercase;
+    /* all uppercase letters */
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+header li{
+    float: left;
+    display: block;
+    padding: 0 20px 0 20px;
+}
+
+nav {
+    float:right;
+    margin-top: 10px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+#show-case{
+    min-height: 400px;
+    background-image: url("./Assests/codingBack.jpg");
+    background-position: 30% , 50%;
+    text-align: center;
+    color: white;
+}
+
+#show-case p{
+    font-size: 20px;
+}
+
+#show-case img{
+    max-width: 200px;
+    float: right;
+}
+
+#show-case p{
+    float:right;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+
+#news-letter{
+    padding: 15px;
+    color: #ffffff;
+    background: #23AE00;
+    opacity: .4;
+}
+
+#news-letter h1{
+    float:left;
+}
+
+#news-letter form{
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+img{
+    width: 80%;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid lightgray;
+    margin-bottom: 25px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 10px 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+button{
+    background-color: lightslategray;
+    color: Black;
+    cursor: pointer;
+    width: 100%;
+    opacity: .9;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.cancelbtn, .signupbtn{
+    padding: 14px 20px;
+    background-color: lightslategray;
+}
+
+.signupbtn, .cancelbtn{
+    float: left;
+    width:50%;
+}
+
+#signUp{
+    padding: 10px 16px 16px !important;
+}
+
+form{
+    border: 1px solid grey;
+}
+
+.clearfix::after{
+    clear:both;
+    display: table;
+    content: "";
+}
